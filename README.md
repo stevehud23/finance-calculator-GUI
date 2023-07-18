@@ -10,6 +10,9 @@ The application relies on the following external libraries:
 ## Class Documentation
 
 ### CalculationTypeDialog
+
+  <img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window1.png " alt="image shows finiance calculator" style="width: 25%; height: auto;">
+
 - Description: Represents a dialog window for selecting the calculation type.
 - Inherits: QDialog
 - Methods:
