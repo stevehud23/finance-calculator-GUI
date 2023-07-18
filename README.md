@@ -31,6 +31,9 @@ The application relies on the following external libraries:
   - `get_inputs()`: Opens the dialog window and returns the inputted investment parameters (amount, interest rate, investment duration, calculation type).
 
 ### BondDialog
+
+<img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window6.png " alt="image shows finiance calculator" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window6a.png " alt="image shows finiance calculator" style="width: 25%; height: auto;">
+
 - Description: Represents a dialog window for inputting bond calculation parameters.
 - Inherits: QDialog
 - Methods:
