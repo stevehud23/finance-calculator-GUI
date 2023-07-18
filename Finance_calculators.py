@@ -3,16 +3,16 @@
 # import math calculator
 import math
 
-                # create calculator selection function
+# create calculator selection function
 # display math calculators
 # get user input for calculator of choice              
 def investment_selector():
     print("")
     calculator_choice = input(" investment - to calculate the amount of interest you'll earn on your investment:\n\n bond -\t to calculate the amount you'll have to pay on a home loan:\n\n Enter 'INVESTMENT' or 'BOND' from the menu above to proceed: ").lower()
 
-# diplay error if wrong choice made
-# reinitialize function if condition not met
-# print selected calculator
+    # diplay error if wrong choice made
+    # reinitialize function if condition not met
+    # print selected calculator
 
     if (calculator_choice != "investment") and (calculator_choice != "bond"):
         print("")
@@ -21,17 +21,17 @@ def investment_selector():
         return(investment_selector())
     print(f"\n You have selected {calculator_choice.upper()} as your calculator of choice: ")
 
-# get input for investment finance calculation
+    # get input for investment finance calculation
      
     if calculator_choice == "investment":
         p = float(input("\n Please enter the amount you wish to deposit today:\t "))
         r = float(input(" Please enter your interest rate:\t"))
         t = float(input(" please enter the amount of years for investment:\t "))
  
-# equation for simple interest
-# equation for compound interest
-# get user input for simple or compound interest
-# create loop for incorrect response
+        # equation for simple interest
+        # equation for compound interest
+        # get user input for simple or compound interest
+        # create loop for incorrect response
         
         simp_total = (r/100*p*t)
         A = round(p*(1 + r/100*t))
@@ -42,7 +42,7 @@ def investment_selector():
         while (interest != "simple") and (interest != "compound"):
             interest = input(" Error specify your interest type:\t 'simple' or 'compound': ").lower()
 
-# display equation for user choice
+        # display equation for user choice
 
         if interest == "simple":
             print(f"\n you have selected: {interest} interest to be applied\n")
@@ -53,7 +53,7 @@ def investment_selector():
             stat_2 = (f"\n intrest rate : {r}%\n total investment : £{a}\n total duration : {t} years\n total interest : £{comp_total}\n\nThank you for using this calculator!")
             print(stat_2)
 
-# get user input for bond statment and print results also as dictionary
+    # get user input for bond statment and print results also as dictionary
 
     def bond():
         if calculator_choice == "bond":
@@ -76,7 +76,7 @@ def investment_selector():
             for keys, values in bond_dict.items():
                 print(keys, ":" ,values)
 
-# reload calculator option
+    # reload calculator option
 
     def re_sel():
           reload = input("\nwould you like to reload the investments calculator? y/n : ").lower()
