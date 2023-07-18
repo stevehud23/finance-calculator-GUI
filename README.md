@@ -62,6 +62,7 @@ To use the Finance Calculator application:
 9. To perform another calculation, click the "Go Back" button to return to the calculation type selection.
 
 Note: Invalid input will be handled with error messages displayed in message boxes.
+<img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window_bond_error.png " alt="image shows finiance calculator" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/bond_error_message.png " alt="image shows finiance calculator" style="width: 25%; height: auto;">
 
 ## Conclusion
 The Finance Calculator application provides a convenient way for users to perform investment and bond calculations. It features an intuitive user interface and input validation to ensure accurate results. Users can easily switch between calculation types and perform multiple calculations within the same session.
