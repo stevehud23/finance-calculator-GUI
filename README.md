@@ -20,6 +20,10 @@ The application relies on the following external libraries:
   - `get_calculation_type()`: Opens the dialog window and returns the selected calculation type (investment or bond).
 
 ### InvestmentDialog
+
+<img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window5.png " alt="image shows finiance calculator" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window3.png " alt="image shows finiance calculator" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window5a.png " alt="image shows finiance calculator" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window5b.png " alt="image shows finiance calculator" style="width: 25%; height: auto;">
+<img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window5c.png " alt="image shows finiance calculator" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/finance-calculator-GUI/blob/main/calc_window5d.png " alt="image shows finiance calculator" style="width: 25%; height: auto;">
+
 - Description: Represents a dialog window for inputting investment calculation parameters.
 - Inherits: QDialog
 - Methods:
