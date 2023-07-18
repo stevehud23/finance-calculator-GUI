@@ -1,7 +1,7 @@
 # Finance Calculator Application
 
 ## Description
-The Finance Calculator application allows users to perform investment and bond calculations based on user input. It provides a user-friendly interface built using PyQt5 library.
+The Finance Calculator application allows users to perform investment and bond calculations based on user input. It provides a user-friendly interface built using PyQt5 library.  This is my updated GUI version of an investments calculator i made using python with no imports.
 
 ## Dependencies
 The application relies on the following external libraries:
