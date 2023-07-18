@@ -41,8 +41,8 @@ The application relies on the following external libraries:
 ## Usage
 To use the Finance Calculator application:
 1. Ensure that the required dependencies are installed (PyQt5)
-2. pip install pip.
-   pip install PyQt5.
+2. - pip install pip.
+   - pip install PyQt5.
 3. Run the script.
 4. The main window will appear with the option to select a calculation type (investment or bond).
 5. Select the desired calculation type.
